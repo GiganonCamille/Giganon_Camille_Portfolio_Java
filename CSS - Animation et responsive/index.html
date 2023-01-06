@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF_8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-sca" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Composants CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-perso">
+        <div class="nav-title">
+          <img class="avatar" src="assets/images/avatar.jpg" alt="" />
+           Camille Giganon  
+        </div>
+
+        <ul class="nav-links">
+          <li class="nav-link"> 
+            <a href="#accueil"> Accueil </a>
+          </li>
+          <li class="nav-link">
+            <a href="#àpropos">À propos </a> 
+        </li>
+          <li class="nav-link">
+            <a href="#mesprojets"> Mes projets </a> 
+        </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-container" id="accueil">
+      <div class="container">
+        <div class="row justify-content-center pt-5">
+          <div class="col-9">
+            <div id="carouselExampleCaptions" 
+            class="carousel slide" 
+            data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button 
+                  type="button" 
+                  data-bs-target="#carouselExampleCaptions" 
+                  data-bs-slide-to="0" 
+                  class="active" 
+                  aria-current="true" 
+                  aria-label="Slide 1">
+                </button>
+                  <button 
+                  type="button" 
+                  data-bs-target="#carouselExampleCaptions" 
+                  data-bs-slide-to="1" 
+                  aria-label="Slide 2">
+                </button>
+                  <button 
+                  type="button" 
+                  data-bs-target="#carouselExampleCaptions" 
+                  data-bs-slide-to="2" 
+                  aria-label="Slide 3">
+                </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/CamilleBB1.JPG" 
+                    class="d-block w-100" 
+                    alt="...">
+                    <div class="carousel-caption d-none d-md-block " style="color: black;">
+                      <h2> Bienvenue </h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/CamilleBB2.JPG" 
+                    class="d-block w-100" 
+                    alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color: black;">
+                      <h2> chez </h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/CamilleBB3.JPG" 
+                    class="d-block w-100" 
+                    alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color: black;" >
+                      <h2> moi ! </h2>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+        <section class="section" style="height: 200px">
+          <p>
+            Je suis étudiante en première année de Bachelor à l’Institut de
+            l’Internet et du multimédia (IIM) à Paris, La Défense. Vous y
+            trouverez ici, toutes les informations me concernant !
+          </p>
+        </section>
+        <button id="button"> Mode 🌚 </button>
+        <script src="script.js"> </script>
+        
+        <button>Hit me</button>
+ <div class="container"> 
+  <div id="card0" class="cards"></div>
+  <div id="card1" class="cards"></div>
+  <div id="card2" class="cards"></div>
+  <div id="card3" class="cards"></div>
+  <div id="card4" class="cards"></div> 
+
+        <section id="àpropos">
+            <h3> À propos </h3>
+        </section>
+
+        <section class="section section-image" >
+          <img src="assets/images/avatar.jpg" alt="" />
+          <p>
+            Le digital est un domaine que j’apprécie beaucoup et dans lequel je souhaite développer mes compétences tout au long de mes années d’études au sein de l’IIM. Mon objectif est de travailler dans les métiers autour de la communication digitale et e-business.
+            
+            Je participe au développement de la société « MyCityExpress » sur les réseaux sociaux. Ce qui me permet d’avoir une première expérience professionnelle et qui me permet de travailler dans un domaine qui me plait particulièrement.
+            
+            J’ai effectué un stage de troisième dans un cabinet de vétérinaire très intéressant et qui m’a fait découvrir le monde du travail, la rigueur et les responsabilités. 
+
+            Diplôme(s) : BAC
+
+          </p>
+        </section>
+
+        <br>
+        <section id="mesprojets" >
+            <h3> Mes projets </h3>
+        </section>
+
+        <section class="section section-image">
+          <p>
+            FlagLand est un jeu de plateau que j’ai créé avec 3 autres camarades de classe qui nous permet de découvrir le monde du digital ainsi que de développer ses connaissances dans le domaine. Le jeu consiste à être le premier à récupérer le drapeau adverse avec un minimum de points. Nous avons conçu ce jeu en vue d’un concours qui se déroulera un peu plus tard dans l’année. Vous pouvez le retrouver sur le site : https://tabletopia.com
+          </p>
+          <img src="assets/images/Flagland.jpg" alt="" />
+        </section>
+
+        <section class="section section-image">
+          <p>
+            MyCityExpress est une société qui vend des jeux de pistes dans plusieurs villes du monde !
+            
+            Cela fait depuis début 2022 que j’aide au développement de la société sur les réseaux sociaux ainsi qu’à la création d’une nouvelle box de jeu de piste. Ce qui me permet d’avoir une première expérience professionnelle et qui me permet de travailler dans un domaine qui me plaît particulièrement.
+          </p>
+          <img src="assets/images/MyCityExpress.jpg" alt="" />
+        </section>
+
+            <section class="section section-image">
+              <p>
+                VISUAL DESIGN – PHOTOSHOP
+                Lors de ma semaine consacrée à Photoshop, j’ai pu apprendre les bases sur le logiciel Photoshop pour créer un album de célébrité. 
+                Le but du projet était de créer un recto-verso d’album tout en modifiant les images.
+                J’ai choisi comme célébrité Dua Lipa, qui est une chanteuse-compositrice-interprète britannique. Dua Lipa est bien connue pour son chant sensuel, ses intrigues sombres et ses paroles honnêtes de ses chansons. J’ai donc repris son style, ses musiques pour en faire un nouvel album qui la représente !
+              </p>
+              <img src="assets/images/DuaLipa.jpg" alt="" />
+            </section>
+
+            <br>
+            <section> 
+              <h4> Projets en cours</h4>
+            </section>
+
+        <section class="section section-cards-flex">
+          <div class="card">
+            <img class="card-image" src="assets/images/jeuvideo.jpg" alt="" />
+            <div class="card-content">
+              <h3> Jeux Vidéo</h3>
+              <p> Réalisation d'un jeu video en 2D type Mario Bros</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-image" src="assets/images/Lumière.png" alt="" />
+            <div class="card-content">
+              <h3> Lumière en 3D</h3>
+              <p> Réalisation de Lumière en 3D sur Blender </p>
+            </div>
+          </div>
+
+        </section>
+      </div>
+
+      <br>
+      <section> 
+        <h4> Contact </h4>
+      </section>
+
+      <section class="section section-2">
+        <a href="https://www.linkedin.com/in/camille-giganon-12ab8723b/"> 
+          <button class="btn-demo"> Linkedin </button>
+        </a>
+      </section>
+
+      <section class="section section-2">
+        <a href="https://www.instagram.com/camille.gign/"> 
+          <button class="btn-demo"> Instagram </button>
+        </a>
+      </section>
+
+      <footer class="footer">
+        <p>Copyright Camille Giganon</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- Pour faire des boutons : 
+    <button class="btn-demo"> Bouton </button>
+    <button class="btn-rectangle"> Rectangle </button>
+    <button class="btn-violet"> Violet </button>  -->
+<!-- Pour la photo portrait :
+    <div class="presentation">
+            <div class="container">
+                <div class="components">
+                    <img class="avatar" src="assets/images/avatar.jpg" alt="">
+                </div>
+            </div>
+        </div> -->

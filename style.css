@@ -1,0 +1,54 @@
+.light {
+    color: #222;
+    background-color: #ddd;
+}
+
+.dark {
+    background-color: #222;
+    color: #ddd;
+}
+/* Mise en page */
+.container {
+    display: flex;
+  }
+  
+  .cards {
+    width: 200px;
+    height: 200px;
+    transform: translateY(300px);
+  /*   transform: translateY(0px); */
+    transition: all 0.5s ease;
+    opacity: 0%;
+  }
+  
+  /* couleur de mes cards */
+  #card0 {
+   background-color: red;
+  }
+  
+  #card1 {
+   background-color: orange;
+  }
+  
+  #card2 {
+   background-color: yellow;
+  }
+  
+  #card3 {
+   background-color: green;
+  }
+  
+  #card4 {
+   background-color: blue;
+  }
+  
+  /* Etat qui vient écraser le premier lorsque le container obtient la classe active */
+  
+  .active {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+
+
+
+  

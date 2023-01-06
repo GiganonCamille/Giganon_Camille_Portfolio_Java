@@ -1,0 +1,14 @@
+.presentation {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*presentation des composants */
+.components { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem ;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("components/container.css");
+@import url("components/presentation.css");
+@import url("components/buttons.css");
+@import url("components/avatar.css");
+@import url("components/navbar.css");
+@import url("components/sections.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/exo.css");
+
+* {
+    box-sizing: border-box ;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+html,
+body {
+    height: 100vh !important;
+    font-family: "Montserrat", sans-serif !important;
+    background-color: aliceblue !important;
+    text-align: center;
+}
+
+
+.image-carousel {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* breakpoints */
+@media (min-width : 640px) {
+}
+
+@media (min-width : 768px) {
+}
+@media (min-width : 1024px) {
+}
+
+
+header {
+    background-color: rgb(160, 233, 241);
+}
+
